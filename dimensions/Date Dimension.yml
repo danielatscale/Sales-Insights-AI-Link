@@ -575,6 +575,8 @@ calculation_groups:
   - unique_name: Time Series
     label: Time Series
     folder: Time Series
+    name: Time Series
+    description: Time Series
 
     calculated_members:
 
@@ -584,6 +586,8 @@ calculation_groups:
         format: Standard
         hierarchy: Date Week Hierarchy
         template: Last Year
+        name: Last Year
+        description: Last Year
 
       - unique_name: Date Month Hierarchy Current vs Previous Pct
         expression: "(([Date Dimension].[Date Month Hierarchy].CurrentMember, [Measures].currentMember)\
@@ -592,6 +596,8 @@ calculation_groups:
         format: Percent
         hierarchy: Date Month Hierarchy
         template: Current vs Previous Pct
+        name: Current vs Previous Pct
+        description: Current vs Previous Pct
 
       - unique_name: Current
         description: The measure's value for the current dimension members in the
@@ -600,4 +606,5 @@ calculation_groups:
         format: Standard
         hierarchy: Date Week Hierarchy
         template: Current
+        name: Current
         is_default: true

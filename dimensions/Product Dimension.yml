@@ -40,15 +40,6 @@ hierarchies:
               - englishproductname
             sort_column: englishproductname
 
-        metrics:
-
-          - unique_name: List Price
-            label: List Price
-            calculation_method: sum
-            folder: Product Metrics
-            dataset: dimproduct
-            column: listprice
-
 level_attributes:
 
   - unique_name: Product Category
