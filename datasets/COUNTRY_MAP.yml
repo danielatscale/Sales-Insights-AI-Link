@@ -1,0 +1,11 @@
+unique_name: COUNTRY_MAP
+object_type: dataset
+label: COUNTRY_MAP
+connection_id: Snowflake Partner
+table: DG_COUNTRY_MAP
+
+columns:
+  - name: COUNTRY
+    data_type: string
+  - name: USERNAME
+    data_type: string

@@ -1,0 +1,6 @@
+unique_name: total_units_sold_7_day_avg
+object_type: metric_calc
+label: total_units_sold_7_day_avg
+expression: "Avg(ParallelPeriod([Ship Date Dimension].[Ship Date Week Hierarchy].[Ship\
+  \ DayMonth], 6, [Ship Date Dimension].[Ship Date Week Hierarchy].CurrentMember):[Ship\
+  \ Date Dimension].[Ship Date Week Hierarchy].CurrentMember, [Measures].[salesamount1])"

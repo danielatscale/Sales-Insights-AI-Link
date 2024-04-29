@@ -1,0 +1,8 @@
+unique_name: Geography Dimension Security
+label: Geography Dimension Security
+object_type: row_security
+dataset: COUNTRY_MAP
+filter_key_column: COUNTRY
+ids_column: USERNAME
+id_type: user
+scope: all

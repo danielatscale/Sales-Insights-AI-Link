@@ -1,0 +1,17 @@
+unique_name: SALES_INSIGHTS_PREDICTIONS_DG
+object_type: dataset
+label: SALES_INSIGHTS_PREDICTIONS_DG
+connection_id: Snowflake Partner
+table: SALES_INSIGHTS_PREDICTIONS_DG
+
+columns:
+  - name: CUSTOMER KEY
+    data_type: "decimal(38,0)"
+  - name: PREDICTED_SALES_AMOUNT
+    data_type: double
+  - name: PRODUCT KEY
+    data_type: "decimal(38,0)"
+  - name: SHIP DAY_DATE
+    data_type: string
+  - name: STATE
+    data_type: string

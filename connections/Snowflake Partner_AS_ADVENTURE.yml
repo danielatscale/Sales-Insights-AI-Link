@@ -1,0 +1,6 @@
+unique_name: Snowflake Partner_AS_ADVENTURE
+label: Snowflake Partner_AS_ADVENTURE
+object_type: connection
+as_connection: Snowflake Partner
+database: SE_DEMO_LIBRARY
+schema: AS_ADVENTURE

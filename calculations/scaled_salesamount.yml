@@ -1,0 +1,5 @@
+unique_name: scaled_salesamount
+object_type: metric_calc
+label: scaled_salesamount
+description: "min: 2.29  max: 2175593.49  created 11/14/2023"
+expression: "(([Measures].[salesamount1] - 2.29)/(2175593.49-2.29))*(1-0)+0"
